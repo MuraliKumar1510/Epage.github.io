@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Epage.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="mt-4">My E-commerce Store</h1>
+
+                <!-- Product listings will be dynamically added here using JavaScript -->
+
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mt-4">
+                    <h5 class="card-header">Shopping Cart</h5>
+                    <ul class="list-group list-group-flush" id="cart-items">
+                        <!-- Shopping cart items will be dynamically added here using JavaScript -->
+                    </ul>
+                    <div class="card-body">
+                        <p>Total: <span id="cart-total">₹0.00</span></p>
+                        <button class="btn btn-success" id="checkout-button">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Epage.js"></script>
+</body>
+</html>
